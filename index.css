@@ -1,0 +1,62 @@
+.main{
+    text-align: center;
+    background-color: lightBlue;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:95%;
+    border: solid black 5px;
+    margin-top: 25px;
+}
+
+.littleInfo{
+    display:flex;
+    justify-content:space-around;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    background-color: coral;
+    
+}
+
+.navbar{
+    display:flex; 
+    justify-content:space-around;
+    background-color: black;
+}
+
+#name{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 35%);
+    font-size: 110px;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    background-color:black;
+    color:white;
+    
+}
+
+a{
+   color:white; 
+}
+
+img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    background-color: coral;
+    width:250px;
+    border-radius: 50%;
+}
